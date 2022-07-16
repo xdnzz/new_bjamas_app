@@ -3,9 +3,12 @@ import Cart from '../../assets/cart.svg';
 
 export function Header(){
     return (
-        <header className="py-4 bg-slate-400 flex justify-between">
-            <img src={Logo} alt="Logo Bejamas" />
-            <img src={Cart} alt="Cart Items" />
+       <>
+        <header className="py-9 flex justify-between">
+            <img src={Logo} alt="Logo Bejamas"  className="w-28"/>
+            <img src={Cart} alt="Cart Items" className="w-7" />
         </header>
+        <div className="bg-slate-300 w-full h-0.5"></div>
+       </>
     )
 }

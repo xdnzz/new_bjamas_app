@@ -1,12 +1,14 @@
-import {Header} from './components/header/Header';
+import { Header } from './components/header/Header';
 
 
 function App() {
 
   return (
-    <div>
-      <Header/>
-    </div>
+    <main className="flex justify-center bg-zinc-100 w-full h-screen">
+      <div className="w-11/12">
+        <Header />
+      </div>
+    </main>
   )
 }
 

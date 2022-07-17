@@ -1,4 +1,5 @@
-import { Header } from './components/header/Header';
+import { Filter } from './components/Filter/Filter';
+import { Header } from './components/Header/Header';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <main className="flex justify-center bg-zinc-100 w-full h-screen">
       <div className="w-11/12">
         <Header />
+        <Filter/>
       </div>
     </main>
   )

@@ -14,7 +14,7 @@ export function FeaturedSingleImage() {
                 <img src="https://i.imgur.com/1KJ5PiF.jpg" alt="" className="mx-auto"/>
 
 
-                <div className="bg-slate-500 h-9 p-7 flex items-center justify-between absolute mt-80">
+                <div className="bg-slate-500 h-9 p-7 flex items-center justify-between absolute mt-[328px] ">
                     PHOTO OF THE DAY
                 </div>
 
